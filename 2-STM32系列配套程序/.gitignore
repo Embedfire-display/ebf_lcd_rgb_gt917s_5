@@ -27,9 +27,10 @@ tmp/
 # uVision generated files
 *.uvopt
 *.uvgui.*
+#*.uvoptx
 *.uvguix.*
 *.TMP
-*.scvd
+*.dbgconf
 
 *.plg
 *.map
@@ -44,23 +45,16 @@ tmp/
 *.axf
 *.S19
 *.bin
-*.hex
 *.dep
 *.FLM
-*.iex
 
 # JLink files
 JLink*.*
 
 # Output directories
-#Output
+Output
 Lst
 Obj
-
-#Do not ignore output folder, ignore other files
-!/Output
-/Output/*
-!/Output/*.sct
 
 # cscope
 cscope.*
@@ -75,14 +69,4 @@ tags
 *.tag
 html
 debug.txt
-/【固件库】STM32F10x_StdPeriph_Lib_V3.5.0
-keilkill.bat
-settings
-
-#IAR files
-
-*.out
-*.sim
-*.log
-*.ld
-
+/【固件库】STM32F4xx_DSP_StdPeriph_Lib_V1.8.0
